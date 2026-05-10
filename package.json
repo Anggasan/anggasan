@@ -1,0 +1,16 @@
+{
+  "name": "rpow2-mining-bot",
+  "version": "1.0.0",
+  "description": "Mining bot untuk rpow2.com",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
